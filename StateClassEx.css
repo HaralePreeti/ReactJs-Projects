@@ -1,0 +1,83 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.parent {
+    width: 90%;
+    height: 150px;
+    /* height: calc(100% -50px); */
+    border: 2px solid green;
+    position: absolute;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 40px;
+    padding: 10px;
+    background-color: burlywood;
+}
+
+.parent .youtube img {
+    height: 150px;
+    width: 200px;
+    float: right;
+    border-radius: 5px;
+    border: 1px solid #333;
+}
+
+.parent .youtube p {
+    height: 30px;
+    width: 800px;
+}
+
+.parent .child {
+    width: 50%;
+    height: 160px;
+    /* height: calc(100% -50px); */
+    position: absolute;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 150px 200px;
+    padding: 10px;
+    /* background-color: burlywood; */
+
+
+}
+
+.parent .child img {
+    height: 150px;
+    width: 150px;
+    float: left;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.parent .child button {
+    background-color: black;
+    color: white;
+    font-size: bold;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.parent .child span {
+    font-size: small;
+}
+
+
+.parent .youtube .child .image{
+    display: flex;
+}
+.parent .youtube .child .image img{
+    margin: 50px 10px;
+    object-fit: contain;
+    width: 40%;
+    height: 150px;
+    border-radius: 3px;
+    float: left;
+    
+}
+    
+    

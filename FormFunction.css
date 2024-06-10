@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.background{
+    height:190vh;
+    width: 500px;
+    border-radius: 8px;
+    border:2px solid navy;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: peachpuff;
+}
+
+.background .form .title-field p span{
+    color: blue;
+}
+
+.background .form .title-field h6{
+    color: red;
+}
+
+.background .form form{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    gap:5px;
+}
+
+.background .form form label{
+    justify-content: start;
+}
+
+.background .form form label span{
+    color: red;
+}
+
+.background .form form .label{
+    margin-top: 15px;
+    width: 90%;
+}
+.background .form form .label select{
+    justify-content: start;
+    padding: 10px 10px;
+    width: 95%;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid silver;
+    border-radius: 4px;
+    transition: all ease-in 0.4s;
+}
+.background .form form .label input{
+    justify-content: start;
+    padding: 10px 10px;
+    width: 90%;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid silver;
+    border-radius: 4px;
+    transition: all ease-in 0.4s;
+}
+
+.background .form form .label input:focus{
+    border: 2px solid navy;
+}
+
+.background .form button{
+    justify-content: start;
+    padding: 10px 10px;
+    width: 90%;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid silver;
+    border-radius: 4px;
+    transition: all ease-in 0.4s;
+    background-color: gray;
+    font-weight: bold;
+    font-size: large;
+}
+
+.background .form button:hover{
+    background-color: green;
+}
+
+/* .background .form form .label .label2{
+    display: flex;
+    float: row;
+} */

@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color: aqua;
+}
+
+.background{
+    height: 250px;
+    width: 250px;
+    border: 2px solid black;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 80px;
+    background-color: bisque;
+}
+
+.background .login form{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 10px;
+    gap: 20px;
+}
+
+.background .login form input{
+    outline: none;
+    border: none;
+    border-bottom: 2px solid black;
+}
